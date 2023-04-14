@@ -14,9 +14,6 @@ class UsersTableSeeder extends Seeder
      */
     public function run(): void
     {
-        User::factory()->count(500)->create();
-
-
          \App\Models\User::factory()->create([
              'first_name' => 'Sergey',
              'middle_name' => 'Orlov',
@@ -26,5 +23,16 @@ class UsersTableSeeder extends Seeder
              'role' => 0,
 
          ]);
+
+         \App\Models\User::factory()->create([
+            'first_name' => 'Artem',
+            'middle_name' => 'Sokolov',
+            'last_name' => 'Poopkin',
+            'email' => 'employee@example.com',
+            'password' => Hash::make('12345678'),
+            'role' => 1,
+        ]);
+
+        User::factory()->count(500)->create();
     }
 }
