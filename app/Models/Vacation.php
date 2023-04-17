@@ -31,6 +31,6 @@ class Vacation extends Model
 
     public function canBeEdited(): bool
     {
-        return $this->status !== 'approved' && $this->status !== 'rejected';
+        return $this->vacation_status !== 'approved' && $this->vacation_status !== 'rejected';
     }
 }
