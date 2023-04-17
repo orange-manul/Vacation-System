@@ -19,13 +19,15 @@
 <br>
 2. Docker: docker-compose build
 <br>
-3. Download composer: make install 
+3. Docker up: docker-compose up -d
 <br>
-4. Download node: make modules
+4. Download composer: make install 
 <br>
-5. Migrate db: make migrate
+5. Download node: make modules
 <br>
-6. Seed: make seed</p>
+6. Migrate db: make migrate
+<br>
+7. Seed: make seed</p>
 
 <h2>2 Users for test</h2>
 
