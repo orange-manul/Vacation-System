@@ -14,9 +14,10 @@
   <li>Docker</li>
 </ul>
 <h2>Usage</h2>
-<p>1. Download project: git clone https://github.com/orange-manul/Vacation-System.git
+<p>
+1. Download project: git clone https://github.com/orange-manul/Vacation-System.git
 <br>
-2. Docker: docker-compose build</p>
+2. Docker: docker-compose build
 <br>
 3. Download composer: make install 
 <br>
